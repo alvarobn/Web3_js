@@ -11,6 +11,16 @@ body .cabecera span{
     font-size: 30px;
     margin-right: 50px;
 }
+
+body a{
+    color:white;
+    width: 50%;
+    height: 50px;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+}
+
+
 body .cabecera .redselctor{
     width: 100%;
     padding-left: 10%;
