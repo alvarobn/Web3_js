@@ -1,3 +1,6 @@
+let from = ""
+let key = ""
+
 window.onload = async () => {
     window.web3 = new Web3("https://mainnet.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
 
@@ -177,8 +180,6 @@ window.onload = async () => {
         }
         
         //CUENTA PREDEFINIDA 3
-        let from = "0xa0f4080EabEd7df1F1e751743a62dFb5F14ED307"
-        let key = "59aeb34689b4121fee6a691ce9af03e5c1fba0a485920eaf90aa27f6dc31b0e1"
         let direccionContrato = address.value
         let stringData = "contrato.methods." + nombre + "("
         if(narg>0){
