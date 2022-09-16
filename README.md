@@ -22,6 +22,7 @@ window.web3.setProvider("https://ropsten.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5
 window.web3.setProvider("https://rinkeby.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
 window.web3.setProvider("https://kovan.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
 ```
+_Por otro lado se debe configurar las variables "from" y "key" del archivo "scriptscontracts.js" para que las peticiones se realicen de forma correcta.
 
 ## Autor ✒️
 
