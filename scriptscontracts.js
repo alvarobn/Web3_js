@@ -1,5 +1,5 @@
-let from = ""
-let key = ""
+const from = ""
+const key = ""
 
 window.onload = async () => {
     window.web3 = new Web3("https://mainnet.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
