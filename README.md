@@ -22,6 +22,22 @@ window.web3.setProvider("https://ropsten.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5
 window.web3.setProvider("https://rinkeby.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
 window.web3.setProvider("https://kovan.infura.io/v3/a0ca98b8bcb64d3dbdd7bf57e5417840")
 ```
+Por otro lado se debe configurar las variables "from" y "key" del archivo "scriptscontracts.js" para que las peticiones se realicen de forma correcta:
+```
+const from = ""
+const key = ""
+```
+
+
+## IMPORTANTE 🚨
+
+En la última aportación se ha creado un apartado para integrar Smart Contracts donde se podrá interactuar con sus funciones. Actualmente, solo se toman en cuenta argumentos de tipo "int" y "string", además no hay integrado un sistema de visualización de las respuestas.
+
+### ROXIMAMENTE 📌
+
+* Mayor flexibilidad con el tipo de argumentos utilizados.
+* Implementación de una correcta visualización de respuestas.
+* Incorporación de algun sistema para modificar el gas a utilizar.
 
 ## Autor ✒️
 
